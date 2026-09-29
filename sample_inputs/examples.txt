@@ -1,0 +1,109 @@
+AlgorithmLab - Sample Inputs & Outputs
+=======================================
+These are worked examples you can try yourself in each menu.
+
+MODULE 1: FUNDAMENTAL ALGORITHMS
+---------------------------------
+Exchange values
+  Input : a = 5, b = 3
+  Output: a = 3, b = 5
+
+Counting
+  Input : numbers = 5 1 2 3 4 5, condition = even
+  Output: Count of even numbers = 2   (2 and 4)
+
+Summation
+  Input : n = 5
+  Output: 15   (1+2+3+4+5)
+
+Factorial
+  Input : n = 5
+  Output: 120
+
+Fibonacci sequence
+  Input : n = 6
+  Output: [0, 1, 1, 2, 3, 5]
+
+Reverse a number
+  Input : n = 123
+  Output: 321
+
+Base conversion (decimal to base)
+  Input : n = 10, base = 2
+  Output: 1010
+
+Character to number
+  Input : ch = A
+  Output: 65
+
+
+MODULE 2: NUMBER & FACTORING ALGORITHMS
+-----------------------------------------
+Square root
+  Input : n = 16
+  Output: approx. 4.0
+
+Smallest divisor
+  Input : n = 15
+  Output: 3
+
+GCD
+  Input : a = 54, b = 24
+  Output: 6
+
+Generate primes
+  Input : limit = 20
+  Output: [2, 3, 5, 7, 11, 13, 17, 19]
+
+Prime factorization
+  Input : n = 60
+  Output: [2, 2, 3, 5]
+
+Power (large power example)
+  Input : base = 2, exponent = 10
+  Output: 1024
+
+nth Fibonacci number
+  Input : n = 10
+  Output: 55
+
+
+MODULE 3: ARRAY/LIST TECHNIQUES
+----------------------------------
+Reverse array
+  Input : [1, 2, 3]
+  Output: [3, 2, 1]
+
+Count occurrences
+  Input : [1, 2, 2, 3], target = 2
+  Output: 2
+
+Find maximum
+  Input : [3, 7, 1, 9, 2]
+  Output: 9
+
+Remove duplicates (sorted input)
+  Input : [1, 1, 2, 2, 3]
+  Output: [1, 2, 3]
+
+Partition array
+  Input : [8, 3, 5, 2, 9], pivot index = 2 (pivot value = 5)
+  Output: something like [3, 2, 5, 8, 9], pivot at index 2
+
+kth smallest
+  Input : [7, 2, 9, 1, 5], k = 3
+  Output: 5
+
+
+NOTE: Invalid input handling
+-------------------------------
+If you type something that is not a valid positive integer where one
+is expected, for example:
+
+  Enter a positive integer: abc
+
+the program will show:
+
+  Invalid input. Please enter a valid positive integer.
+
+and ask again, instead of crashing.

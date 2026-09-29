@@ -1,0 +1,5 @@
+# AlgorithmLab uses ONLY Python's standard library.
+# No external/third-party packages are required.
+# Standard library modules used: time (for the time-tradeoff demo)
+# To run this project, you only need Python 3.8 or newer installed.
+# There is no need to install anything using pip.
